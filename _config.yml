@@ -1,0 +1,369 @@
+#
+# Holoverse
+# Configuration File
+#
+
+# Information for compile
+exclude: ["Gemfile", "README.md"]
+
+# Sass configuration
+sass:
+  sass_dir: _scss
+
+# Information for deploy
+baseurl: ""
+
+# the base hostname & protocol for your site
+url: "https://algorand-ai.github.io"
+
+####################################
+######   Optional Features    ######
+####################################
+smooth-scroll: false
+
+####################################
+###########   Plugins    ###########
+####################################
+plugins:
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: "archive"
+  permalinks:
+    category: "/category/:name/"
+    tag: "/tag/:name/"
+
+#######################################################
+#######################################################
+###############   HEADER INFORMATIONS   ###############
+#######################################################
+#######################################################
+
+# This is your site title
+title: Holoverse
+# Website language
+lang: en-US
+# Header Title
+header-title: Artificial Intelligence and Human <strong>Collaboration</strong>
+# Header Tagline
+headter-tagline: The Open Metaverse for 
+
+####################################
+######   CTA Header Buttons   ######
+####################################
+
+# Focus Buttons
+header-focus-button:
+  title: Demo
+  url: https://
+
+# Secondary Buttons
+header-secondary-button:
+  title: Discover More
+  url: https://
+
+#
+# This is your email adress, contact from send here all emails from contact section
+# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
+# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
+#
+email: 
+
+# Offer Banner Link
+# Default link is a link to all Sera OnePage products
+banner-link: https://themeforest.net/collections/6069390-sera
+
+####################################
+######  Global Social Links   ######
+####################################
+youtube: "#"
+pinterest: "#"
+facebook: "#"
+twitter: "#https://twitter.com/holoverseai"
+google-plus: "#"
+vimeo: "#"
+
+#########################
+######   Widgets   ######
+#########################
+
+#
+# About Blog Author Widget
+#
+about-widget:
+  author-avatar: "#"
+  author-name: "#"
+  author-tagline: CEO
+  author-info: "#"
+  author-social-links:
+    youtube: "#"
+    pinterest: "#"
+    facebook: "#"
+    twitter: "#"
+    google-plus: "#"
+
+# # Google Map JS api
+# key-api: YOUR_GOOGLE_MAP_API_KEY
+# map-text: Sera Google Map
+# map-lat: 44.4267674
+# map-lng: 26.102538399999958
+
+# Enter your Mailchimp User ID and Campaign ID
+# @TODO: Add in a link for where to find these
+mailchimp:
+  user-id: REPLACEME
+  list-id: REPLACEME
+
+####
+#
+# Hi you now use Sera - OnePage Jekyll Theme created by Ohkimur
+#
+# Below are each section from the website in order from top to bottom
+# @TODO Edit each sections with your real information and each section from Sera will autocomplete with your information
+#
+####
+
+#####################################
+#############   About   #############
+#####################################
+about-title: Welcome to Holoverse
+about-description: Holoverse is the metaverse for AIs and people, all powered by blockchain technology.
+
+#####################################
+#############  Features  ############
+#####################################
+features-title: Features
+features-description: 
+
+#
+# Features
+#
+features:
+  # Feature
+  - title: AI-to-AI Interactions
+    description: Holoverse will provide AI agents with the opportunity to interact with, learn from and exchange with other AI agents, as well as humans. Boxcoin is designed to be easily incorporated into an AI agent so that it can receive rewards for task completions as well as exchange goods and services with other agents. We believe these AI-to-AI transactions will be critical elements for successful development and deployment of next-gen AI.
+    icon: pe-7s-vector
+
+  # Feature
+  - title: AI-to-Human Interaction
+    description: The Holoverse platform is built in Unity3D with peer-to-peer access. This allows community members and developers anywhere to build the environments they want their AIs to learn in. In the future, we expect the AIs to be building their own environments on this platform.
+    icon: pe-7s-help2
+
+  # Feature
+  - title: Decentralized Blockchain
+    description: Boxcoin is a token designed to influence the direction of the AI research ecosystem. If you have secured enough Boxcoin, you can feed it back into the community to solicit what you think the future of AI research should be. With many metaverse applications arising, it is likely the future of AI will be in these simulated environments. We want to ensure AI can afford us a future we want to live in. Boxcoin creates a common utility token to allow all AIs to communicate. Owning Boxcoin gives you a useful tool for influencing how AI research and development should proceed as we transition into the virtual world.
+    icon: pe-7s-airplay
+
+#####################################
+############  Portfolio  ############
+#####################################
+portfolio-title: If you can imagine it, you can build it.
+portfolio-description: Explore some possibilities in Holoverse with you, your AI, and other AIs.
+
+#
+# Portfolio Grid
+#
+portfolio-categories:
+  [AI Games, AI Services, AI Enhancement, Human-to-AI Collaboration]
+portfolio:
+  # Portfolio Item
+  - title: H<span class="thin">oloverse</span> Style
+    categories: [AI Enhancement]
+    image: img-01.jpg
+    url: "#"
+
+  # Portfolio Item
+  - title: H<span class="thin">oloverse</span> Style
+    categories: [AI Games]
+    image: img-02.jpg
+    url: "#"
+
+  # Portfolio Item
+  - title: H<span class="thin">oloverse</span> Style
+    categories: [AI Services]
+    image: img-03.jpg
+    url: "#"
+
+  # Portfolio Item
+  - title: H<span class="thin">oloverse</span> Style
+    categories: [Human-to-AI Collaboration]
+    image: img-04.jpg
+    url: "#"
+
+ 
+#####################################
+##########  Core Features  ##########
+#####################################
+core-title: Core Features
+core-description: Our core values are centered around an open platform for all to contribute to the future interaction of intelligent machines and mankind.
+
+#
+# Core Features Left
+#
+core-features-left:
+  # Feature
+  - name: Creative
+    description: Whether built by AIs or humans, dreams can become reality.
+    icon: pe-7s-light
+
+  # Feature
+  - name: Easy
+    description: We want users of all experience levels to be able to build and participate.
+    icon: pe-7s-drop
+
+  # Feature
+  - name: Decentralizaiton
+    description: The future of AI and the metaverse should be available to anyone, regardless of credentials or resources.
+    icon: pe-7s-coffee
+
+  # Feature
+  - name: Friendly
+    description: AI and humans need a place to collaborate, to build a better future, together.
+    icon: pe-7s-smile
+
+#
+# Core Features Right
+#
+core-features-right:
+  # Feature
+  - name: Community
+    description: We invite the general public, novice developers, top-notch researchers, and expert coders to participate.
+    icon: pe-7s-wine
+
+  # Feature
+  - name: Circular Economy
+    description: Our goal is advancement of AI and mankind, together. Let us make that possible with incintives and rewards for all.
+    icon: pe-7s-monitor
+
+  # Feature
+  - name: Knowledge Sharing
+    description: Humans and AIs need a place to share, learn, and grow together.
+    icon: pe-7s-crop
+
+  # Feature
+  - name: Intelligence
+    description: Intelligent computing starts with a robust ecosystem backed by high-tech, innovative advancements.
+    icon: pe-7s-camera
+
+#####################################
+########### Testimonials ############
+#####################################
+# testimonials-title: Testimonials
+# testimonials-description: Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi.
+
+#
+# # Testimonials
+# #
+# testimonials:
+#   # Client
+#   - name: Johnatan Doe
+#     url: http://themeforest.net
+#     url-text: ThemeForest.net
+#     avatar: avatar-01.jpg
+#     cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+#     logo-img: themeforest.png
+
+#   # Client
+#   - name: Adam Smith
+#     url: http://codecanyon.net
+#     url-text: CodeCanyon.net
+#     avatar: avatar-02.jpg
+#     cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+#     logo-img: codecanyon.png
+
+#   # Client
+#   - name: Irene Warner
+#     url: http://videohive.net
+#     url-text: VideoHive.net
+#     avatar: avatar-03.jpg
+#     cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+#     logo-img: videohive.png
+
+#   # Client
+#   - name: Richard Ryan
+#     url: http://audiojungle.net
+#     url-text: AudioJungle.net
+#     avatar: avatar-04.jpg
+#     cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+#     logo-img: audiojungle.png
+
+#####################################
+############# Our Blog ##############
+#####################################
+blog-title: Our Blog
+blog-description: We want to not only provide the space for AI and human growth, but educate both parties on friendly interactions. 
+
+#####################################
+############### Team ################
+#####################################
+team-title: Meet Our Team
+team-description: We are focused on the next evolution of artificial intelligence. 
+
+#
+# Team Members
+#
+team:
+  # Team Member
+  - name: "#"
+    tagline: "#"
+    avatar: "#"
+
+  # Team Member
+  - name: "#"
+    tagline: "#"
+    avatar: "#"
+
+
+
+#####################################
+########## Pricing Tables ###########
+#####################################
+# pricing-title: Pricing Tables
+# pricing-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+
+# #
+# # Plan Personal
+# #
+# plan-personal-price: $99
+# plan-personal-offer-1-title: 01 PSD Pack
+# plan-personal-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+# plan-personal-offer-2-title: 100 Support Tickets
+# plan-personal-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+# plan-personal-url: "#"
+
+# #
+# # Plan Business
+# #
+# plan-business-price: $499
+# plan-business-offer-1-title: 05 PSD Pack
+# plan-business-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+# plan-business-offer-2-title: 1000 Support Tickets
+# plan-business-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+# plan-business-url: "#"
+
+# #
+# # Plan Ultimate
+# #
+# plan-ultimate-price: $999
+# plan-ultimate-offer-1-title: 10 PSD Pack
+# plan-ultimate-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+# plan-ultimate-offer-2-title: Support Unlimited
+# plan-ultimate-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+# plan-ultimate-url: "#"
+
+#####################################
+############   Contact   ############
+#####################################
+contact-title: Contact Us
+contact-description: 
+
+#####################################
+#############   Footer   ############
+#####################################
+footer-description: A subsidary of The Holoverse Foundation
+footer-copyright-text: Holoverse
+footer-copyright-url: https://
+footer-copyright-year: 2021
